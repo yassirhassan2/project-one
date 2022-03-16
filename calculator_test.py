@@ -11,9 +11,9 @@ class Test(unittest.TestCase):
     def test_0_substract(self):
         result = self.calculator.subtract(10,2)
         self.assertEqual(result,8)
-    def test_0_multi(self):
-        result = self.calculator.multi(8,2)
-        self.assertEqual(result,16)
+    # def test_0_multi(self):
+    #     result = self.calculator.multi(8,2)
+    #     self.assertEqual(result,16)
 if __name__ == '__main__':
     # begin the unittest.main()
     unittest.main()
