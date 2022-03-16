@@ -8,7 +8,6 @@ class Test(unittest.TestCase):
     def test_0_add(self):
         result = self.calculator.add(4,8)
         self.assertEqual(result,12)
-<<<<<<< HEAD
     def test_0_substract(self):
         result = self.calculator.subtract(10,2)
         self.assertEqual(result,8)
@@ -18,8 +17,7 @@ class Test(unittest.TestCase):
     def test_0_divide(self):
         result = self.calculator.divide(2,2)
         self.assertEqual(result,1)
-=======
->>>>>>> 254b2677bafc629a449209e72f0766764f0766d9
+
 if __name__ == '__main__':
     # begin the unittest.main()
     unittest.main()
